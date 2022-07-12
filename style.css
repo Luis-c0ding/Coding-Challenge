@@ -1,0 +1,91 @@
+.background{ 
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Contenitore pricipale */
+.container{
+    height: 550px;
+    width: 800px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px 20px 20px 20px; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Contenitore secondario */
+.container2 {
+    margin: 0 auto;
+    height: 550px;
+    width: 700px;
+    padding-top: 60px;
+}
+/* Dimensione logo */
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+/* Testata */
+.header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #00dd00;
+    text-align: center;
+    padding-top: 15px;
+}
+/* Menu di navigazione */
+.nav {
+    background: #00dd00;
+    text-align: center;
+    padding: 7px;
+}
+.nav button{
+    font-size: 9px;
+    padding: 1px 2px;
+}
+/* sezione */
+.article{
+    padding-top: 7px;
+    color: white;
+}
+/* sezione monopattino */
+.details{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+/* sezione via e carica*/
+.details-two{
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+}
+/* ed. della freccia */
+.arrow:after{
+    content: "\21A6";
+}
+/* livello carica */
+#battery{
+    width:35%;
+    background-color: #f5b453;
+}
+#battery-two{
+    width:60%;
+    background-color: #1ec31e;
+}
+#battery-three{
+    width:15%;
+    background-color: #be4141;
+}
+/* ed. barra carica */
+#battery , #battery-two , #battery-three{
+    height:20px;
+    border-radius: 5px 5px 5px 5px; 
+}
